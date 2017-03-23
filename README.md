@@ -1,27 +1,36 @@
 # Artificial-IntelligenceHomework
 
 [C++] 20141017-回溯法-野人传教士
+
 [C++] 20141030-AStar八数码
+
 [C++] 20141121-模拟退火-旅行商
+
 [C++] 20141121-遗传算法-旅行商
+
 [Python3.4] 20141211-朴素贝叶斯-文本分类
 ***
 
 
 ## Homework 1~5
 
-编译环境：VS2013
+* 编译环境：VS2013
+
 （使用2013版需要设置：项目→属性→C/C++→预处理器→预处理器定义→添加“_CRT_SECURE_NO_WARNINGS”）
+
 （为了保证fopen函数的正常运行）
+
 其他编译环境未进行尝试
 
-命令行格式：
+* 命令行格式：
+
 hm01.exe a.txt c:\abc\b.txt
 （允许b.txt事先不存在，但a.txt必须存在，否则程序失效）
 （a.txt中内容只支持一种形式：5 3，其他形式程序失效）
 
-关于包：
-引入了<iostream>
+* 关于包：
+
+引入了\<iostream\>
 
 ***
 
@@ -49,7 +58,7 @@ hm01.exe a.txt c:\abc\b.txt
 
 
 ### 结果
-        Test    Train
+Test    Train
 /email+/num+/a  0.925   0.946875
 email+num+a 0.9125  0.94375
 email+/num+/a   0.925   0.94375
@@ -58,10 +67,6 @@ email+/num+a    0.9125  0.946875
 /email+/num+a   0.9125  0.95
 /email+num+a    0.9125  0.94375
 /email+num+/a   0.925   0.94375
-
-
-
-
 
 
 
